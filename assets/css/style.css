@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
 
+/* bagian header */
 header img{
     width: 110px;
     height: 59px;
@@ -8,8 +10,9 @@ header img{
 header{
     background-color: white;
     box-shadow: 0 0 6px 0 #C1C3C736;
-    position: fixed;
     width: 100%;
+    /* position: fixed;
+    z-index: 99999; */
 }
 .navbar-nav li a{
     font-size: 15px;
@@ -28,6 +31,9 @@ header{
     color: #F47522;
     font-family: 'Muli', sans-serif;
     font-weight: bold;
+}
+.button-contact{
+    color: #F47522;
 }
 .button{
     margin-top: 10px;
@@ -54,6 +60,60 @@ button:hover{
     transition: all 0.5s;
     text-decoration: none;
 }
+
+/* bagian home */
+.section-home{
+    background-color: #EDF6FF;
+}
+.section-home h1, .section-home p{
+    color: #19345e;
+    font-weight: bold;
+    font-family: "Muli", sans-serif;
+}
+.section-home h2{
+    color: #19345e;
+    font-weight: bold;
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+}
+.section-home h3{
+    color: #F47522;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+.section-home a{
+    width: 230px;
+    height: 40px;
+    background-color: #F47522;
+    color: white;
+    font-weight: bold;
+    padding: 11px 39px 10px 64px;
+    border-radius: 20px;
+}
+.section-home a:hover{
+    background-color: white;
+    border-color: #F47522;
+    border-style: solid;
+    border-width: 2px;
+    color: #F47522;
+    font-weight: bold;
+    text-decoration: none;
+}
+.box{
+    background-color: white;
+    border-radius: 75px;
+    box-shadow: 0 3px 6px #00000029;
+    width: 814px;
+    height: 110px;
+    padding: 33px 93px;
+}
+.logo-section1{
+    background-color: #F47522;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+/* bagian blog */
 .page-blog img{
     width: 100%;
     height: 100%;
