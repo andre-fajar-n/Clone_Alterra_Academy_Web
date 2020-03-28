@@ -10,6 +10,7 @@ header img{
 header{
     background-color: white;
     box-shadow: 0 0 6px 0 #C1C3C736;
+    /* position: fixed; */
     width: 100%;
     /* position: fixed;
     z-index: 99999; */
@@ -154,4 +155,70 @@ header{
     .title{font-size: 34px;}
     .date{font-size: 14px;}
     .article-blog{font-size: 10px;}
+}
+
+/* FOR SECTION PAGE 2 ONLY */
+.mainBracket {
+    margin-top: 90px;
+    margin-left: 0px;
+    width: 1233px;
+    height: 743px;
+    opacity: 1;
+}
+
+.jobTitle {
+    margin-top: 291px;
+    margin-left: 160px;
+    height: 914px;
+    text-align: left;
+    font: bold 30px/12px Muli;
+    letter-spacing: 0;
+    color: #19345e;
+    opacity: 1;
+}
+
+#teampict {
+    width: 320px;
+    height: 399px;
+    margin-top: 360px;
+    margin-left: 190px;
+}
+
+/* FOR FOOTER SECTION ONLY */
+
+footer {
+    background-color: #19345e;
+    opacity: 1;
+}
+
+.alterra-insignia {
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 50px;
+    margin-right: auto;
+}
+
+.navbar-list ul li {
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    margin-right: 15px;
+}
+
+.socmedtxt {
+    font-family: ;
+    font-size: 14px;
+    color: white;
+}
+
+.copyrighttxt {
+    font-family: ;
+    font-size: 14px;
+    color: white;
+}
+
+.socmedicon {
+    width: 20px;
+    height: 20px;
 }
