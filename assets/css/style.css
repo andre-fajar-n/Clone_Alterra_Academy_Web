@@ -202,6 +202,24 @@ header{
     opacity: 1;
 }
 
+.profpict {
+    width: 320px;
+    height: 399px;
+}
+
+.biodata {
+    font-family: 'Poppins';
+}
+
+.institution-name {
+    font-weight: bold;
+}
+
+.date-icon {
+    width: 14px;
+    height: 14px;
+}
+
 #teampict {
     width: 320px;
     height: 399px;
