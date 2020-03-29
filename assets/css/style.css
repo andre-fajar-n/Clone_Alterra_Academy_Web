@@ -341,6 +341,16 @@ header{
     height: 20px;
 }
 
+.input1 {
+    width: 100%;
+    height: auto;
+}
+
+.input2 {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
 
 /* FOR FOOTER SECTION ONLY */
 
