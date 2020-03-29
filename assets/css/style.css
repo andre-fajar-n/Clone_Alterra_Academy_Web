@@ -196,6 +196,32 @@ header{
     font-family: "Poppins", sans-serif;
 }
 
+/* Bagian home section 4 */
+.home-section4 img{
+    width: 285px;
+    height: auto;
+}
+.home-title-article{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.editor-tgl{
+    font-family: "Poppins", sans-serif;
+    font-family: 14px;
+    color: #707070;
+}
+.isi{
+    font-family: "Poppins", sans-serif;
+    font-family: 14px;
+    text-align: left;
+}
+.read-more{
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+.read-more:hover{color: #F47522;}
+
 /* bagian blog */
 .page-blog img{
     width: 100%;
