@@ -83,11 +83,7 @@ header{
     font-weight: bold;
     font-family: "Roboto", sans-serif;
 }
-.team{
-    width: 20px;
-    height: 20px;
-}
-.team-hover{
+.team, .team-hover{
     width: 20px;
     height: 20px;
 }
@@ -105,7 +101,6 @@ header{
     border-style: solid;
     border-width: 2px;
     color: #F47522;
-    font-weight: bold;
     text-decoration: none;
 }
 .section-home a:hover .team-hover{display: inline;}
@@ -231,14 +226,7 @@ header{
     font-family: "Muli", sans-serif;
     color: #19345e;
 }
-.blog{
-    font-size: 45px;
-    text-align: center;
-    margin-bottom: 5%;
-    font-weight: bold;
-    padding-top: 6%;
-}
-.title{
+.title-blog{
     font-size: 50px;
     font-weight: bold;
     padding-top: 5%;
@@ -254,55 +242,59 @@ header{
     padding-top: 6.5%;
 }
 @media (max-width: 767px) {
-    .blog{font-size: 30px;}
-    .title{font-size: 34px;}
+    .index-title{font-size: 30px;}
+    .title-blog{font-size: 34px;}
     .date{font-size: 14px;}
     .article-blog{font-size: 10px;}
 }
 
 /* FOR SECTION PAGE 2 ONLY */
-.mainBracket {
-    margin-top: 90px;
-    margin-left: 0px;
-    width: 1233px;
-    height: 743px;
-    opacity: 1;
-}
-
-.jobTitle {
-    margin-top: 291px;
-    margin-left: 160px;
-    height: 914px;
-    text-align: left;
-    font: bold 30px/12px Muli;
-    letter-spacing: 0;
-    color: #19345e;
-    opacity: 1;
-}
-
 .profpict {
     width: 320px;
     height: 399px;
 }
-
-.biodata {
-    font-family: 'Poppins';
+.img-border-page-2{
+    display: inline-block;
+    position: relative;
 }
-
+.img-border-page-2::before{
+    position: absolute;
+    bottom: -6%;
+    left: -6%;
+    width: 320px;
+    height: 399px;
+    border: 10px solid #F47522;
+    content: '';
+}
+.biodata {
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    color: #19345e;
+}
 .institution-name {
     font-weight: bold;
 }
-
 .date-icon {
     width: 14px;
     height: 14px;
 }
-
-#teampict {
-    width: 320px;
-    height: 399px;
-    margin-top: 360px;
-    margin-left: 190px;
+.team-jabatan{
+    font-size: 30px;
+    font-family: "Muli", sans-serif;
+    font-weight: bold;
+}
+.edu-section ul li,
+.exp-section ul li{
+    font-size: 14px;
+    color: #19345e;
+    font-family: "Poppins", sans-serif;
+}
+.edu-section h2,
+.exp-section h2{
+    font-size: 25px;
+    font-family: "Muli", sans-serif;
+    font-weight: bold;
+    color: #19345e;
 }
 
 /* FOR FOOTER SECTION ONLY */
