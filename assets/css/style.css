@@ -215,6 +215,16 @@ header{
     font-weight: bold;
 }
 
+.i-con-tact {
+    width: 15px;
+    height: 15px;
+}
+
+.soc-prof {
+    width: 25px;
+    height: 25px;
+}
+
 .date-icon {
     width: 14px;
     height: 14px;
@@ -226,6 +236,42 @@ header{
     margin-top: 360px;
     margin-left: 190px;
 }
+
+/* Page 4 - Contact */
+
+.sendmail {
+    background-color: #F47522;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 11px 32px;
+}
+.mail-hover {
+    display: none;
+}
+
+.sendmail:hover {
+    background-color: white;
+    border-color: #F47522;
+    border-style: solid;
+    border-width: 2px;
+    color: #F47522;
+    text-decoration: none;
+}
+
+.sendmail:hover .mail-hover {
+    display: inline;
+}
+
+.sendmail:hover .mail {
+    display: none;
+}
+
+.mail, .mail-hover {
+    width: 20px;
+    height: 20px;
+}
+
 
 /* FOR FOOTER SECTION ONLY */
 
