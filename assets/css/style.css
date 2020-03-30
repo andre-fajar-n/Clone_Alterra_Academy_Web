@@ -28,9 +28,9 @@ header img{
     height: 59px;
 }
 header{
-    background-color: white;
-    box-shadow: 0 0 6px 0 #C1C3C736;
-    /* position: fixed; */
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(193,195,199,1);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(193,195,199,1);
+    box-shadow: 0px 3px 10px 0px rgba(193,195,199,1);
     width: 100%;
     /* position: fixed;
     z-index: 99999; */
@@ -66,26 +66,27 @@ header{
     transition: all 0.5s;
     text-decoration: none;
 }
+.area-contact{
+    padding-left: 20%;
+    padding-top: 15px
+}
 
 /* bagian home section 1*/
-.section-home{
-    background-color: #EDF6FF;
-}
-.section-home h1, .section-home p{
-    color: #19345e;
+.section-home{background-color: #EDF6FF;}
+.hai{
+    font-size: 25px;
     font-weight: bold;
     font-family: "Muli", sans-serif;
 }
-.section-home h2{
-    color: #19345e;
-    font-weight: bold;
-    display: inline-block;
+.alterra{
     font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 45px;
 }
-.section-home h3{
-    color: #F47522;
+.isi-intro{
     font-weight: bold;
-    font-family: "Roboto", sans-serif;
+    font-family: "Muli", sans-serif;
+    font-size: 17px;
 }
 .team, .team-hover{
     width: 20px;
@@ -115,7 +116,6 @@ header{
     box-shadow: 0 3px 6px #00000029;
     width: 814px;
     height: 110px;
-    /* padding: 33px 93px; */
 }
 .logo-section1{
     background-color: #F47522;
@@ -275,6 +275,8 @@ header{
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
     color: #19345e;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .institution-name {
     font-weight: bold;
@@ -366,14 +368,16 @@ header{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
-.input1 {
-    width: 100%;
-    height: auto;
-}
-.input2 {
+.input1,
+.input2{
     width: 100%;
     height: auto;
     border-radius: 6px;
+}
+.input2:focus, 
+.input1:focus{
+    border-color: #F47522;
+    color: #19345e;
 }
 
 /* FOR FOOTER SECTION ONLY */
@@ -381,12 +385,12 @@ header{
 footer {
     background-color: #19345e;
     opacity: 1;
+    padding: 20px 0;
 }
 .alterra-insignia {
-    width: 140px;
+    width: 110px;
     display: block;
     margin-left: auto;
-    margin-bottom: 50px;
     margin-right: auto;
 }
 .navbar-list ul li {
@@ -396,27 +400,78 @@ footer {
     margin-right: 15px;
 }
 .socmedtxt {
-    font-family: ;
+    font-family: Arial, sans-serif;
     font-size: 14px;
     color: white;
+    margin: 0;
 }
 .copyrighttxt {
-    font-family: ;
+    font-family: Arial, sans-serif;
     font-size: 14px;
     color: white;
+    margin: 0;
 }
 .socmedicon {
     width: 20px;
     height: 20px;
 }
+
 @media (max-width: 767px) {
     .index-title{font-size: 20px;}
-    .title-blog{font-size: 20px;}
+
+    /* header */
+    footer .col-md-4{
+        text-align: center;
+        padding: 10px;
+    }
+    .navbar-nav{flex-direction: row;}
+    .navbar-nav .nav-link{padding: 0 5px;}
+    header .col-lg-6,
+    header .col-md-6{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* page home section intro */
+
+    /* page home section about */
+    .title-about{font-size: 25px;}
+    .jumbotron{height: 242px;}
+    .content-about{font-size: 10px;}
+
+    /* page home section meet our team */
+    .img-teks{margin-bottom: 10%;}
+    
+    /* page home section latest blog */
+    
+    /* page team */
+    .team-jabatan{font-size: 15px;}
+    .profpict,
+    .img-border-page-2::before{
+        width: 250px;
+        height: 300px;
+    }
+    .biodata{margin-top: 30px;}
+    .biodata,
+    .edu-section ul li{
+        font-size: 12px;
+    }
+    .edu-section h2,
+    .exp-section h2{
+        font-size: 15px;
+    }
+    
+    /* page blog */
     .date{font-size: 14px;}
     .article-blog{font-size: 10px;}
-    .title-about{font-size: 25px;}
-    .content-about{font-size: 10px;}
-    .jumbotron{height: 242px;}
-    .img-teks{margin-bottom: 10%;}
-    /* .home-section4 .col-md-4{padding: 0;} */
+    .title-blog{font-size: 20px;}
+    
+    /* page contact */
+    .soc-tact ul li,
+    .masukan{
+        font-size: 12px;
+    }
+
+    /* footer */
 }
