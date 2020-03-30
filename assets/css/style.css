@@ -9,6 +9,7 @@
     font-family: "Muli", sans-serif;
     font-weight: bold;
     text-align: center;
+    margin: 4.5% 0;
 }
 .blue{color: #19345e;}
 .index-sub-title{
@@ -16,6 +17,9 @@
     font-family: "Muli", sans-serif;
     font-weight: bold;
     text-align: center;
+}
+.home-section3{
+    padding: 0 10%;
 }
 
 /* bagian header */
@@ -216,6 +220,11 @@ header{
     font-size: 15px;
     font-family: "Poppins", sans-serif;
 }
+.check-now{
+    font-size: 16px;
+    font-family: "Muli", sans-serif;
+    font-weight: 600;
+}
 
 /* Bagian home section 4 */
 .home-section4 img{
@@ -242,33 +251,9 @@ header{
     font-family: "Poppins", sans-serif;
 }
 .read-more:hover{color: #F47522;}
+.home-section4 .col-md-4{padding: 0 6%;}
 
-/* bagian blog */
-.page-blog img{
-    width: 100%;
-    height: 100%;
-}
-.page-blog{
-    font-family: "Muli", sans-serif;
-    color: #19345e;
-}
-.title-blog{
-    font-size: 50px;
-    font-weight: bold;
-    padding-top: 5%;
-}
-.date{
-    font-weight: bold;
-    font-size: 20px;
-    padding-top: 4%;
-}
-.article-blog{
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    padding-top: 6.5%;
-}
-
-/* FOR SECTION PAGE 2 ONLY */
+/* PAGE 2 Team */
 .profpict {
     width: 320px;
     height: 399px;
@@ -302,7 +287,6 @@ header{
     width: 25px;
     height: 25px;
 }
-
 .date-icon {
     width: 14px;
     height: 14px;
@@ -325,9 +309,32 @@ header{
     font-weight: bold;
     color: #19345e;
 }
+/* page 3 blog */
+.page-blog img{
+    width: 100%;
+    height: 100%;
+}
+.page-blog{
+    font-family: "Muli", sans-serif;
+    color: #19345e;
+}
+.title-blog{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 5%;
+}
+.date{
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 4%;
+}
+.article-blog{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 6.5%;
+}
 
 /* Page 4 - Contact */
-
 .sendmail {
     background-color: #F47522;
     color: white;
@@ -335,9 +342,7 @@ header{
     border-radius: 20px;
     padding: 11px 32px;
 }
-.mail-hover {
-    display: none;
-}
+.mail-hover {display: none;}
 .sendmail:hover {
     background-color: white;
     border-color: #F47522;
@@ -346,17 +351,12 @@ header{
     color: #F47522;
     text-decoration: none;
 }
-.sendmail:hover .mail-hover {
-    display: inline;
-}
-.sendmail:hover .mail {
-    display: none;
-}
+.sendmail:hover .mail-hover {display: inline;}
+.sendmail:hover .mail {display: none;}
 .mail, .mail-hover {
     width: 20px;
     height: 20px;
 }
-
 .soc-tact ul li{
     color: #19345e;
     font-family: "Poppins", sans-serif;
@@ -366,12 +366,10 @@ header{
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
-
 .input1 {
     width: 100%;
     height: auto;
 }
-
 .input2 {
     width: 100%;
     height: auto;
@@ -384,7 +382,6 @@ footer {
     background-color: #19345e;
     opacity: 1;
 }
-
 .alterra-insignia {
     width: 140px;
     display: block;
@@ -392,26 +389,22 @@ footer {
     margin-bottom: 50px;
     margin-right: auto;
 }
-
 .navbar-list ul li {
     text-align: center;
     list-style-type: none;
     display: inline;
     margin-right: 15px;
 }
-
 .socmedtxt {
     font-family: ;
     font-size: 14px;
     color: white;
 }
-
 .copyrighttxt {
     font-family: ;
     font-size: 14px;
     color: white;
 }
-
 .socmedicon {
     width: 20px;
     height: 20px;
@@ -424,4 +417,6 @@ footer {
     .title-about{font-size: 25px;}
     .content-about{font-size: 10px;}
     .jumbotron{height: 242px;}
+    .img-teks{margin-bottom: 10%;}
+    /* .home-section4 .col-md-4{padding: 0;} */
 }
